@@ -250,6 +250,28 @@ body {
 }
 
 
+.products-grid .products-grid {
+  display: contents;
+}
+
+.footer {
+  grid-column: 1 / -1;
+  width: 100%;
+  clear: both;
+}
+
+
+.products-grid {
+  margin-bottom: 32px;
+}
+
+
+body > .footer {
+  display: block;
+}
+
+
+
 @media (max-width: 768px) {
   .header {
     grid-template-columns: 1fr;
